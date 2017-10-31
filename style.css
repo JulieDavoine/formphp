@@ -1,0 +1,52 @@
+body 
+{
+	background-image: url(pieuvre2.jpg);
+	font-family: 'EBGaramond-Regular', Georgia, Arial;	
+}
+div
+{	
+	border: 1px black solid;
+	border-radius: 5px;
+	background-color: white;
+}
+/*Ma localisation,Biographie,Passions*/
+.item 
+{
+	color: #4D1538;
+	font-weight: bolder;
+}
+form
+{
+	margin:auto;
+	color: black;
+
+}
+
+@font-face {	
+	src:url('EBGaramond-Regular.ttf') format('truetype');	
+}
+
+nav
+{
+	color: black;
+	border: 1px black solid;
+	border-radius: 5px;
+	background-color: white; 
+	font-weight: bolder;
+}
+
+a
+{
+	color: #701313;
+	margin-left: 150px;
+}
+a:hover
+{
+	color: #310A0A;
+}
+
+img
+{
+	border : 1px black solid;
+	width: 1110px;
+}
