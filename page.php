@@ -24,6 +24,7 @@ $lemessage=$_POST['lemessage'];
 $mail = $_POST['mail'];
 $headers  = 'MIME-Version: 1.0' . "\r\n";
 $headers .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
+$sujet = $_POST['sujet'];
 
-mail($to, $mail, $lemessage, $headers);
+mail($to, $sujet, $lemessage, $headers);
 ?>

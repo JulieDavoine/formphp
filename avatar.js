@@ -56,9 +56,9 @@ function verifForm(f)
 
    var pseudoOk = verifPseudo(f.pseudo);
    var mailOk = verifMail(f.mail);
-   var messageOk = verifMessage(f.message);
+   var lemessageOk = verifMessage(f.lemessage);
 
-   if(pseudoOk && mailOk && messageOk)
+   if(pseudoOk && mailOk && lemessageOk)
    {
     alert("C'est bon");
       return true;
